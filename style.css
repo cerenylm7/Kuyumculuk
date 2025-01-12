@@ -1,0 +1,80 @@
+/* Genel stil ayarları */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d7f8c2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container stil ayarları */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #3ed7a2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Başlık stil ayarları */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 32px;
+    color: #333;
+}
+
+/* Form input, textarea ve buton stil ayarları */
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Tablo stil ayarları */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dddddd;
+}
+
+table th {
+    background-color: #90ce14;
+}
+
+/* Menü stil ayarları */
+nav {
+    background-color: #333; /* Menünün arka plan rengi */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #575757; /* Hover durumunda menü öğesi rengi */
+    border-radius: 5px;
+}
